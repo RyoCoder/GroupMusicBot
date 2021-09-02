@@ -12,10 +12,10 @@
 - `/search <query>` - tìm kiếm video trên youtube với thông tin chi tiết
 
 #### Chỉ dành cho quản trị viên
-- `/pause` - tạm dừng phát bài hát
-- `/resume` - tiếp tục phát bài hát
-- `/bỏ qua` - phát bài hát tiếp theo
-- `/end` - dừng phát nhạc
+- `/tamdung` - tạm dừng phát bài hát
+- `/tieptuc` - tiếp tục phát bài hát
+- `/chuyenbai` - phát bài hát tiếp theo
+- `/tatnhac` - dừng phát nhạc
 
 ### Deploy To Heroku</h4>
 
@@ -23,4 +23,3 @@
 
 Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
-### Latest Repo [Here](https://github.com/Infinity-Bots/GroupMusicPlayerBot)
