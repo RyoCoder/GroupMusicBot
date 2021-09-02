@@ -6,10 +6,10 @@
 
 ### Lệnh 🛠
 #### Cho tất cả trong nhóm
-- `/play` - trả lời url youtube hoặc tệp bài hát để phát bài hát
-- `/ytp <tên bài hát>` - phát bài hát mà không có url youtube hoặc tệp bài hát (phương pháp tốt nhất)
+- `/reply` - trả lời url youtube hoặc tệp bài hát để phát bài hát
+- `/play <tên bài hát>` - phát bài hát mà không có url youtube hoặc tệp bài hát (phương pháp tốt nhất)
 - `/song <tên bài hát>` - tải xuống các bài hát bạn muốn một cách nhanh chóng
-- `/search <query>` - tìm kiếm video trên youtube với thông tin chi tiết
+- `/timkiem <query>` - tìm kiếm video trên youtube với thông tin chi tiết
 
 #### Chỉ dành cho quản trị viên
 - `/tamdung` - tạm dừng phát bài hát
