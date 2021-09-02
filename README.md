@@ -4,36 +4,23 @@
   <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
 </p>
 
-<h3>Requirements 📝</h3>
+### Lệnh 🛠
+#### Cho tất cả trong nhóm
+- `/play` - trả lời url youtube hoặc tệp bài hát để phát bài hát
+- `/ytp <tên bài hát>` - phát bài hát mà không có url youtube hoặc tệp bài hát (phương pháp tốt nhất)
+- `/song <tên bài hát>` - tải xuống các bài hát bạn muốn một cách nhanh chóng
+- `/search <query>` - tìm kiếm video trên youtube với thông tin chi tiết
 
-- FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7+
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-
-### Commands 🛠
-#### For all in group
-- `/play` - reply to youtube url or song file to play song
-- `/ytp <song name>` - play song without youtube url or song file (best method)
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-
-#### Admins only
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
+#### Chỉ dành cho quản trị viên
+- `/pause` - tạm dừng phát bài hát
+- `/resume` - tiếp tục phát bài hát
+- `/bỏ qua` - phát bài hát tiếp theo
+- `/end` - dừng phát nhạc
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/GroupMusicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RyoCoder/GroupMusicBot)
 
 Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
 ### Latest Repo [Here](https://github.com/Infinity-Bots/GroupMusicPlayerBot)
-
-### Credits
-
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/suprojects/CallsMusic)
-- [Infinity BOTs](https://t.me/Infinity_BOTs)
