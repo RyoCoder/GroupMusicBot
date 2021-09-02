@@ -10,11 +10,11 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**Tao là {bn} 🎵
 
-I can play music in your group's voice call. Developed by [owogram](https://t.me/owogram).
+Tao có thể phát nhạc trong cuộc gọi thoại của nhóm bạn. Được phát triển bởi [owogram](https://t.me/owogram).
 
-Add me to your group and play music freely!**
+Thêm tôi vào nhóm của bạn và chơi nhạc tự do!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -25,10 +25,7 @@ Add me to your group and play music freely!**
                     InlineKeyboardButton(
                         "🔊 Channel", url="https://t.me/owogram"
                     )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/{bu}?startgroup=true"
-                    )]
+                ]
             ]
         ),
      disable_web_page_preview=True
@@ -36,12 +33,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Bố mày con thức ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/owogram")
+                        "🔊 Updates", url="https://t.me/owogram")
                 ]
             ]
         )
