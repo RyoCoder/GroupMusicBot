@@ -1,7 +1,7 @@
-<h2 align="centre">Music Play Bot 🎵</h2>
+<h2 align="centre">OWO TELEGRAM MUSIC 🎵</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
+  <img src="https://github.com/RyoCoder/GroupMusicBot/blob/Pro/Capture.PNG?raw=true">
 </p>
 
 ### Lệnh 🛠
@@ -17,7 +17,7 @@
 - `/chuyenbai` - phát bài hát tiếp theo
 - `/tatnhac` - dừng phát nhạc
 
-### Deploy To Heroku</h4>
+### Triển khai đến Heroku</h4>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RyoCoder/GroupMusicBot)
 
